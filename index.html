@@ -1,1 +1,62 @@
 <!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src ="index.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Meditation Trainer</title>
+		<meta name="description" content="Train your breathing.">
+		<meta name="keywords" content="meditation, training, inhale, exhale, breathing">
+	</head>
+
+	<body>
+		<header>
+			<h1>Meditation Trainer</h1>
+		</header>
+		<main class="gridContainer">
+			<section class="gridItem" id="leftMargin1"></section>
+			
+			<section class="gridItem" id="buttonArea">
+				<button class="button" id="button1">Start Inhale</button>
+				<button class="button" id="button2">Begin Exhale</button>
+				<button class="button" id="button3">Finish Breath</button>
+			</section>
+
+			<section class="gridItem" id="instructionArea">
+				<h3>INSTRUCTIONS</h3>
+				<output id="instructions">Click button to begin inhale.</output>
+			</section>
+
+			<section class="gridItem" id="rightMargin1"></section>
+			<section class="gridItem" id="leftMargin2"></section>
+
+			<section class="gridItem" id="logArea">
+					<section id="breathLog">
+						<h2>Breath Log</h2>
+						<p>Completed breaths log here.</p>
+					</section>
+			</section>
+			
+			<section class="gridItem" id="statsArea">
+				<section id="statsLog">
+					<h2>Breath Statistics</h2>
+					<h3>MEAN</h3>
+					<output id="mean">0 seconds</output>
+					<h3>MEDIAN</h3>
+					<output id="median">0 seconds</output>
+					<h3>MODE</h3>
+					<output id="mode">0 seconds</output>
+				</section>
+			</section>
+									
+			<section class="gridItem" id="rightMargin2"></section>
+		</main>
+
+		<footer>
+			<p>2019 Greyson Harris</p>
+		</footer>
+
+	</body>
+
+</html>

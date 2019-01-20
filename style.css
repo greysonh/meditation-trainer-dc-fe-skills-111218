@@ -1,0 +1,38 @@
+/* CSS styling for index.html */
+
+.gridContainer {
+	display: grid;
+	grid-template-columns: 10% 40% 40% 10%;
+	grid-template-rows: 100px auto;
+}
+.gridItem {
+	text-align: center;
+}
+
+header {
+	text-align: center;
+}
+
+#logArea {
+	margin: 10px;
+	background-color: cornsilk;
+}
+
+#statsArea {
+	margin: 10px;
+	background-color: cornsilk;
+}
+
+#buttonArea {
+	display: grid;
+	align-items: center;
+}
+
+#button2, #button3 {
+	display: none;
+}
+
+.button {
+	width: 50%;
+	margin: auto;
+}
